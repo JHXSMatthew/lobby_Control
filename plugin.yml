@@ -1,0 +1,4 @@
+name: lobbyControl
+main: com.mcndsj.lobby_Control.LobbyControl
+version: 0.0.1-SNAPSHOT
+depend: [lobbyVip]
