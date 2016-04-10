@@ -1,7 +1,5 @@
 package com.mcndsj.lobby_Control;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Queue;
 import java.util.UUID;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -44,6 +42,14 @@ public class ControlPlayer {
 			}
 		}
 		return true;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public UUID getUUid(){
+		return this.uuid;
 	}
 	
 	public void setLastChat(String str, long time){

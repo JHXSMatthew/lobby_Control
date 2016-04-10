@@ -4,8 +4,8 @@ import org.bukkit.ChatColor;
 
 public class Messages {
 
-	public static String WarnPrefix= ChatColor.YELLOW + "¾¯¸æ >> " + ChatColor.GRAY;
-	public static String NotifyPrefix = ChatColor.AQUA + "ÌáÊ¾ >> " +  ChatColor.GRAY;
+	public static String WarnPrefix= ChatColor.YELLOW + "è­¦å‘Š >> " + ChatColor.GRAY;
+	public static String NotifyPrefix = ChatColor.AQUA + "æç¤º >> " +  ChatColor.GRAY;
 	
 	
 	

@@ -93,11 +93,11 @@ public class PlayerListener implements Listener{
 		 for(int i=0;i<50;i++){
 			p.sendMessage("");
 		 }
-		 p.sendMessage("¡ì6=====================================================");
-		 p.sendMessage("      ¡ìc¡ìl»¶Ó­À´µ½YourcraftĞ¡ÓÎÏ··ş~");
-	 	 p.sendMessage("        ¡ìb¡ìl±ü³Ğ×Å ¡ì4¡ìl¹«Æ½¹«Õı¡ìb¡ìl µÄÀíÄî×öÖĞ¹úµÄĞ¡ÓÎÏ··ş£¡");
-		 p.sendMessage("           ¡ìb¡ìlÎÒÃÇÖÂÁ¦ÓÚ½«¹úÍâÍòÈË·şÌåÑé´ø¸ø¹úÄÚÍæ¼Ò£¡");
-		 p.sendMessage("¡ì6=====================================================");
+		 p.sendMessage("Â§6=====================================================");
+		 p.sendMessage("      Â§cÂ§læ¬¢è¿æ¥åˆ°Yourcraftå°æ¸¸æˆæœ~");
+	 	 p.sendMessage("        Â§bÂ§lç§‰æ‰¿ç€ Â§4Â§lå…¬å¹³å…¬æ­£Â§bÂ§l çš„ç†å¿µåšä¸­å›½çš„å°æ¸¸æˆæœï¼");
+		 p.sendMessage("           Â§bÂ§læˆ‘ä»¬è‡´åŠ›äºå°†å›½å¤–ä¸‡äººæœä½“éªŒå¸¦ç»™å›½å†…ç©å®¶ï¼");
+		 p.sendMessage("Â§6=====================================================");
 	}
 	
 
@@ -108,21 +108,21 @@ public class PlayerListener implements Listener{
 		ControlPlayer cp = LobbyControl.getPlayerManager().getControlPlayer(p.getName());
 		if(!LobbyVip.getApi().isVip(p.getName())){
 			if(cp.getLastChat() > System.currentTimeMillis()){
-				p.sendMessage(ChatColor.YELLOW +"¾àÀëÄúÉÏ´Î·¢ÑÔ»¹²»×ã3Ãë,ÎªÁË ±ÜÃâË¢ÆÁÏÓÒÉ,ÇëÄúÉÔºóÔÙÊÔ!");
-				p.sendMessage(ChatColor.YELLOW +"³ÉÎªÎÒÃÇµÄ " + ChatColor.GREEN + "»áÔ±" + ChatColor.YELLOW + "¿ÉÒÔÃâ³ı¸ÃÏŞÖÆ!");
+				p.sendMessage(ChatColor.YELLOW +"è·ç¦»æ‚¨ä¸Šæ¬¡å‘è¨€è¿˜ä¸è¶³3ç§’,ä¸ºäº† é¿å…åˆ·å±å«Œç–‘,è¯·æ‚¨ç¨åå†è¯•!");
+				p.sendMessage(ChatColor.YELLOW +"æˆä¸ºæˆ‘ä»¬çš„ " + ChatColor.GREEN + "ä¼šå‘˜" + ChatColor.YELLOW + "å¯ä»¥å…é™¤è¯¥é™åˆ¶!");
 				evt.setCancelled(true);
 				return;
 			}
 			if(cp.isChatAllow(evt.getMessage())){
-				p.sendMessage(ChatColor.YELLOW +"ÄúµÄ½ü¼¸´Î·¢ÑÔ¾ßÓĞÖØ¸´ĞÔ,ÇëÎğÖØ¸´Ë¢ÆÁ!");
-				p.sendMessage(ChatColor.YELLOW +"³ÉÎªÎÒÃÇµÄ " + ChatColor.GREEN + "»áÔ±" + ChatColor.YELLOW + "¿ÉÒÔÃâ³ı¸ÃÏŞÖÆ!");
+				p.sendMessage(ChatColor.YELLOW +"æ‚¨çš„è¿‘å‡ æ¬¡å‘è¨€å…·æœ‰é‡å¤æ€§,è¯·å‹¿é‡å¤åˆ·å±!");
+				p.sendMessage(ChatColor.YELLOW +"æˆä¸ºæˆ‘ä»¬çš„ " + ChatColor.GREEN + "ä¼šå‘˜" + ChatColor.YELLOW + "å¯ä»¥å…é™¤è¯¥é™åˆ¶!");
 				evt.setCancelled(true);
 				return;
 			}
 		}
 		
 		if(evt.getMessage().equals("1")){
-			p.sendMessage(Messages.NotifyPrefix + "ÄúÃ»ÓĞµôÏß...");
+			p.sendMessage(Messages.NotifyPrefix + "æ‚¨æ²¡æœ‰æ‰çº¿...");
 			evt.setCancelled(true);
 			return;
 		}
