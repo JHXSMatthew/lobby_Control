@@ -10,7 +10,7 @@ import com.mcndsj.lobby_Control.maintenance.*;
 
 import com.mcndsj.lobby_Control.chat.ChatManager;
 import com.mcndsj.lobby_Control.functionalItems.PlayerHider;
-import com.mcndsj.lobby_Control.gui.GameSelecttGui;
+import com.mcndsj.lobby_Control.gui.GameSelectGui;
 import com.mcndsj.lobby_Control.protection.BlockListener;
 import com.mcndsj.lobby_Control.protection.EntityListener;
 import com.mcndsj.lobby_Control.protection.PlayerListener;
@@ -31,7 +31,7 @@ public class LobbyControl extends JavaPlugin {
 		pafk = new PlayerAFKController();
 		
 		//GUI stuff
-		new GameSelecttGui();
+		new GameSelectGui();
 		
 		instance.getServer().getPluginManager().registerEvents(new BlockListener(), this);
 		instance.getServer().getPluginManager().registerEvents(new EntityListener(), this);
