@@ -1,4 +1,4 @@
-package com.mcndsj.lobby_Control.Chat;
+package com.mcndsj.lobby_Control.chat;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.mcndsj.lobby_Control.Config.Messages;
+import com.mcndsj.lobby_Control.config.Messages;
 
 public class ChatManager {
 

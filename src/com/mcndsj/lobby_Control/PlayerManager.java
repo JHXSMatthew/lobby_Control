@@ -11,6 +11,7 @@ public class PlayerManager {
 
 	public ControlPlayer getControlPlayer(String name){
 		ControlPlayer lp = hash.get(name);
+	
 		return lp != null? lp : createControlPlayer(Bukkit.getPlayer(name).getUniqueId(),name);
 	}
 	

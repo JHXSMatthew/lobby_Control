@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="C:/Users/Matthew/Desktop/LOCAL/spigot-1.8.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Matthew/Desktop/LOCAL/LobbyLibs/lobby_vip.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matthew/Desktop/LOCAL/LobbyLibs/lobby_Gui.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Itellij projects/Lobby_Display/target/Lobby_Display.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
